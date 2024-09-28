@@ -8,7 +8,7 @@ fi
 
 DEVICE="${1:-}"
 if [ -z "$DEVICE" ]; then
-	DEVICE="iPhone 15"
+	DEVICE="iPhone 16 Plus"
 	echo "No device passed, will default to $DEVICE"
 fi
 

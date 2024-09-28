@@ -19,7 +19,7 @@ class JUnitTestSuiteReporterTest {
             suites = listOf(
                 TestExecutionSummary.SuiteResult(
                     passed = true,
-                    deviceName = "iPhone 15",
+                    deviceName = "iPhone 16",
                     flows = listOf(
                         TestExecutionSummary.FlowResult(
                             name = "Flow A",
@@ -52,7 +52,7 @@ class JUnitTestSuiteReporterTest {
             """
                 <?xml version='1.0' encoding='UTF-8'?>
                 <testsuites>
-                  <testsuite name="Test Suite" device="iPhone 15" tests="2" failures="0" time="1915">
+                  <testsuite name="Test Suite" device="iPhone 16 Plus" tests="2" failures="0" time="1915">
                     <testcase id="Flow A" name="Flow A" classname="Flow A" time="421" status="SUCCESS"/>
                     <testcase id="Flow B" name="Flow B" classname="Flow B" time="1494" status="WARNING"/>
                   </testsuite>
