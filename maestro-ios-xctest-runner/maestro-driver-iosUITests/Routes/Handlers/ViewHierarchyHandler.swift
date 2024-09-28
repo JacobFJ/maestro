@@ -7,7 +7,7 @@ struct ViewHierarchyHandler: HTTPHandler {
 
     private static let springboardBundleId = "com.apple.springboard"
     private let springboardApplication = XCUIApplication(bundleIdentifier: Self.springboardBundleId)
-    private let snapshotMaxDepth = 60
+    private let snapshotMaxDepth = 70
 
     private let logger = Logger(
         subsystem: Bundle.main.bundleIdentifier!,
